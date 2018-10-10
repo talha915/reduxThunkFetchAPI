@@ -7,7 +7,7 @@ export default function (state=initialState, actions) {
         case FETCH_USER:
             return [
                 ...state,
-                actions.payload
+                ...actions.payload
             ]
         default:
             return state;
